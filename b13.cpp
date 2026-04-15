@@ -9,7 +9,7 @@ public:
         for (int i = 0; i < s.size(); i++) {
             if (i + 1 < s.size() && m[s[i]] < m[s[i+1]]) {
                 res -= m[s[i]];
-            } else {
+            } else {    
                 res += m[s[i]];
             }
         }
